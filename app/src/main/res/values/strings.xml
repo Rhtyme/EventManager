@@ -5,7 +5,7 @@
     <string name="event_animal_title">Current animal: </string>
     <string name="event_color_history_title">Color event history: </string>
     <string name="event_animal_history_title">Animal event history: </string>
-    <string name="repeat">Repeat</string>
+    <string name="repeat">Repeat events</string>
     <string name="next_activity">Next activity</string>
     <string name="second_activity">This is the second activity</string>
 

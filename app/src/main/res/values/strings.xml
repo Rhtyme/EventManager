@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EventManager</string>
+    <string name="got_events">Got events: </string>
+    <string name="event_color_title">Current color: </string>
+    <string name="event_animal_title">Current animal: </string>
+    <string name="event_color_history_title">Color event history: </string>
+    <string name="event_animal_history_title">Animal event history: </string>
+    <string name="repeat">Repeat</string>
+    <string name="next_activity">Next activity</string>
+    <string name="second_activity">This is the second activity</string>
+
+    <string-array name="rainbow_title">
+        <item>bright_pink</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>chartreuse</item>
+        <item>green</item>
+        <item>spring_green</item>
+        <item>cyan</item>
+        <item>azure</item>
+        <item>blue</item>
+        <item>violet</item>
+        <item>magenta</item>
+    </string-array>
+
+    <string-array name="animals_array">
+        <item>Cow</item>
+        <item>Pig</item>
+        <item>Bird</item>
+        <item>Sheep</item>
+        <item>Kangaroo</item>
+        <item>Cougar</item>
+        <item>Zebra</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Donkey</item>
+        <item>Lion</item>
+        <item>Giraffe</item>
+        <item>Bunny</item>
+        <item>Budgerigar</item>
+        <item>Puma</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/tvEventColorsTitle"
+            android:layout_width="0dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/event_color_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            app:layout_constraintEnd_toStartOf="@+id/tvEventColors"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:id="@+id/tvEventColors"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvEventColorsTitle"
+            app:layout_constraintTop_toTopOf="@+id/tvEventColorsTitle"/>
+
+
+    <TextView
+            android:id="@+id/tvEventAnimalsTitle"
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/event_animal_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEventColors"
+            app:layout_constraintEnd_toStartOf="@+id/tvEventAnimals"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:id="@+id/tvEventAnimals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvEventAnimalsTitle"
+            app:layout_constraintTop_toTopOf="@+id/tvEventAnimalsTitle"/>
+
+    <TextView
+            android:id="@+id/tvEventColorsHistoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/event_color_history_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEventAnimalsTitle"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvEventColorsHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@+id/tvEventColorsHistoryTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvEventColorsHistoryTitle" android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+            android:id="@+id/tvEventAnimalsHistoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/event_animal_history_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEventColorsHistory"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvEventAnimalsHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvEventAnimalsHistoryTitle"
+            app:layout_constraintTop_toTopOf="@+id/tvEventAnimalsHistoryTitle" android:layout_marginLeft="10dp"/>
+
+
+    <Button
+            android:id="@+id/btnRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvEventAnimalsHistory"
+            android:layout_marginTop="20dp"
+            android:text="@string/repeat"
+            android:onClick="repeat"/>
+
+    <Button
+            android:id="@+id/btnNextActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnRepeat"
+            android:layout_marginTop="20dp"
+            android:text="@string/next_activity"
+            android:onClick="nextActivity"/>
+
+
+</android.support.constraint.ConstraintLayout>
